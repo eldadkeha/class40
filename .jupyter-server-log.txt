@@ -105,3 +105,12 @@ TermSocket.open: Opened 1
 [W 14:32:10.091 NotebookApp] 404 GET /binder/jupyter/user/eldadkeha-class40-jmu6hd9v/api/kernels/bc6e0db7-b8a3-431c-988f-00be29ea21d1/channels?session_id=eb756fbc-43bd-4f94-afa5-c53d5f0987dd (79.178.153.142): Kernel does not exist: bc6e0db7-b8a3-431c-988f-00be29ea21d1
 [W 14:32:10.130 NotebookApp] 404 GET /binder/jupyter/user/eldadkeha-class40-jmu6hd9v/api/kernels/bc6e0db7-b8a3-431c-988f-00be29ea21d1/channels?session_id=eb756fbc-43bd-4f94-afa5-c53d5f0987dd (79.178.153.142) 42.500000ms referer=None
 [W 14:32:12.100 NotebookApp] Replacing stale connection: bc6e0db7-b8a3-431c-988f-00be29ea21d1:eb756fbc-43bd-4f94-afa5-c53d5f0987dd
+[W 14:42:22.194 NotebookApp] Culling 'idle' kernel 'python3' (636abf48-8c04-4a87-adca-cc8d3c0ccce0) with 1 connections due to 632 seconds of inactivity.
+[I 14:42:22.195 NotebookApp] Kernel shutdown: 636abf48-8c04-4a87-adca-cc8d3c0ccce0
+[W 14:45:27.986 NotebookApp] WebSocket ping timeout after 119900 ms.
+Websocket closed
+[W 14:45:49.610 NotebookApp] WebSocket ping timeout after 119898 ms.
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 14:52:30.534 NotebookApp] Saving file at /G10.ipynb
