@@ -1,0 +1,86 @@
+[I 14:10:09.538 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 2022-03-25 14:10:10.374 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-25 14:10:10.374 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-25 14:10:10.374 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-25 14:10:10.375 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-25 14:10:10.375 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-25 14:10:10.375 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-25 14:10:10.375 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-25 14:10:10.375 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-03-25 14:10:10.375 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-03-25 14:10:10.375 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-25 14:10:10.375 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-25 14:10:10.375 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-03-25 14:10:10.387 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2022-03-25 14:10:10.387 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 14:10:10.397 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 14:10:10.399 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 14:10:10.400 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 14:10:10.400 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 14:10:10.400 NotebookApp] http://jupyter-eldadkeha-2dclass40-2djmu6hd9v:8888/binder/jupyter/user/eldadkeha-class40-jmu6hd9v/?token=...
+[I 14:10:10.400 NotebookApp]  or http://127.0.0.1:8888/binder/jupyter/user/eldadkeha-class40-jmu6hd9v/?token=...
+[I 14:10:10.400 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 14:10:10.405 NotebookApp] No web browser found: could not locate runnable browser.
+[I 14:10:12.387 NotebookApp] 302 GET /binder/jupyter/user/eldadkeha-class40-jmu6hd9v/ (10.244.90.28) 1.630000ms
+[I 14:10:12.759 NotebookApp] 302 GET /binder/jupyter/user/eldadkeha-class40-jmu6hd9v/?token=7BOhWG7ZQ8mWxSGBAbqB3w (79.178.153.142) 1.240000ms
+[I 14:10:12.864 NotebookApp] 301 GET /binder/jupyter/user/eldadkeha-class40-jmu6hd9v/lab/?token=7BOhWG7ZQ8mWxSGBAbqB3w (79.178.153.142) 2.380000ms
+[I 14:10:15.965 NotebookApp] 301 GET /binder/jupyter/user/eldadkeha-class40-jmu6hd9v/static/favicons/favicon.ico (79.178.153.142) 2.680000ms
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2022-03-25 14:10:19.026 LabApp] Build is up to date
+[I 14:10:21.005 NotebookApp] Creating new notebook in 
+[I 14:10:21.013 NotebookApp] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+Exception in callback <TaskStepMethWrapper object at 0x7f9213bc5510>()
+handle: <Handle <TaskStepMethWrapper object at 0x7f9213bc5510>()>
+Traceback (most recent call last):
+  File "/srv/conda/envs/notebook/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending coro=<HTTP1ServerConnection._server_request_loop() running at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/http1connection.py:815> cb=[IOLoop.add_future.<locals>.<lambda>() at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/ioloop.py:688]> while another task <Task pending coro=<MappingKernelManager.start_kernel() running at /srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py:176> cb=[IOLoop.add_future.<locals>.<lambda>() at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/ioloop.py:688]> is being executed.
+[I 14:10:22.190 NotebookApp] Kernel started: 53b57408-b621-470f-8f94-8102bb9c23fc, name: python3
+[I 14:10:22.191 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 14:10:22.191 NotebookApp] Culling kernels even with connected clients
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 14:10:23.094 NotebookApp] Starting buffering for 53b57408-b621-470f-8f94-8102bb9c23fc:4e1bce04-8439-4bbd-afa0-a909ef89ebf3
+[I 14:10:23.458 NotebookApp] 301 GET /binder/jupyter/user/eldadkeha-class40-jmu6hd9v/static/favicons/favicon-busy-1.ico (79.178.153.142) 1.120000ms
+[I 14:10:27.524 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 14:12:21.999 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:14:59.994 NotebookApp] Saving file at /requirements.txt
+[I 14:16:01.779 NotebookApp] Uploading file to /2BoxPlotHighLow.ipynb
+[I 14:16:02.623 NotebookApp] Uploading file to /4independentsampledist.ipynb
+[I 14:16:06.856 NotebookApp] Uploading file to /3Normality.ipynb
+[I 14:16:15.182 NotebookApp] Uploading file to /5HomogenityOfVariances.ipynb
+[I 14:16:17.182 NotebookApp] Uploading file to /6PvalEffectSize.ipynb
+[I 14:16:18.703 NotebookApp] Uploading file to /8IQexample.ipynb
+[I 14:16:18.768 NotebookApp] Uploading file to /7CorrelationBetweenCriterionAndTestNumber.ipynb
+[I 14:16:18.861 NotebookApp] Uploading file to /1independentsampledist.ipynb
+[W 14:18:36.760 NotebookApp] Notebook 1independentsampledist.ipynb is not trusted
+[W 14:18:37.665 NotebookApp] Notebook 2BoxPlotHighLow.ipynb is not trusted
+[I 14:18:37.851 NotebookApp] Kernel started: e8bf585d-9c2b-4bc3-9ca6-6abb1c800366, name: python3
+[I 14:18:38.392 NotebookApp] Kernel started: bc6e0db7-b8a3-431c-988f-00be29ea21d1, name: python3
+[W 14:18:38.402 NotebookApp] Notebook 3Normality.ipynb is not trusted
+[I 14:18:39.046 NotebookApp] Kernel started: a1952606-0618-4f7b-9ede-843d7b1dcba7, name: python3
+[W 14:18:39.112 NotebookApp] Notebook 4independentsampledist.ipynb is not trusted
+[W 14:18:39.919 NotebookApp] Notebook 5HomogenityOfVariances.ipynb is not trusted
+[I 14:18:40.468 NotebookApp] Kernel started: 39d5668e-b971-4bd5-9478-06889bcad75d, name: python3
+[W 14:18:40.791 NotebookApp] Notebook 6PvalEffectSize.ipynb is not trusted
+[I 14:18:41.516 NotebookApp] Kernel started: c4ceaecb-0909-4a73-ab60-418f16109eaf, name: python3
+[I 14:18:42.154 NotebookApp] Kernel started: 5ef38df4-7cbf-41c1-a6e3-7914423656d9, name: python3
+[W 14:18:43.674 NotebookApp] Notebook 7CorrelationBetweenCriterionAndTestNumber.ipynb is not trusted
+[W 14:18:44.946 NotebookApp] Notebook 8IQexample.ipynb is not trusted
+[I 14:18:45.676 NotebookApp] Kernel started: 20807bf1-e9ec-4635-9cf9-79a717bc747b, name: python3
+[I 14:18:47.176 NotebookApp] Kernel started: 636abf48-8c04-4a87-adca-cc8d3c0ccce0, name: python3
+[I 14:18:52.452 NotebookApp] Kernel shutdown: 53b57408-b621-470f-8f94-8102bb9c23fc
+[W 14:18:53.337 NotebookApp] delete /Untitled.ipynb
+[I 14:20:38.064 NotebookApp] Saving file at /G2.ipynb
+[I 14:20:38.624 NotebookApp] Saving file at /G1.ipynb
+[I 14:20:38.847 NotebookApp] Saving file at /G3.ipynb
+[I 14:20:39.679 NotebookApp] Saving file at /G4.ipynb
+[I 14:20:40.518 NotebookApp] Saving file at /G5.ipynb
+[I 14:20:41.646 NotebookApp] Saving file at /G6.ipynb
+[I 14:20:44.483 NotebookApp] Saving file at /G7.ipynb
+[I 14:20:45.885 NotebookApp] Saving file at /G8.ipynb
+[I 14:21:32.079 NotebookApp] Saving file at /G8.ipynb

@@ -1,0 +1,12 @@
+{
+  "base_url": "/binder/jupyter/user/eldadkeha-class40-jmu6hd9v/",
+  "hostname": "0.0.0.0",
+  "notebook_dir": "/home/jovyan",
+  "password": false,
+  "pid": 25,
+  "port": 8888,
+  "secure": false,
+  "sock": "",
+  "token": "7BOhWG7ZQ8mWxSGBAbqB3w",
+  "url": "http://0.0.0.0:8888/binder/jupyter/user/eldadkeha-class40-jmu6hd9v/"
+}
