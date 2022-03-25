@@ -84,3 +84,24 @@ TermSocket.open: Opened 1
 [I 14:20:44.483 NotebookApp] Saving file at /G7.ipynb
 [I 14:20:45.885 NotebookApp] Saving file at /G8.ipynb
 [I 14:21:32.079 NotebookApp] Saving file at /G8.ipynb
+[W 14:31:22.193 NotebookApp] Culling 'idle' kernel 'python3' (e8bf585d-9c2b-4bc3-9ca6-6abb1c800366) with 1 connections due to 651 seconds of inactivity.
+[I 14:31:22.194 NotebookApp] Kernel shutdown: e8bf585d-9c2b-4bc3-9ca6-6abb1c800366
+[W 14:31:22.711 NotebookApp] Culling 'idle' kernel 'python3' (bc6e0db7-b8a3-431c-988f-00be29ea21d1) with 1 connections due to 649 seconds of inactivity.
+[I 14:31:22.711 NotebookApp] Kernel shutdown: bc6e0db7-b8a3-431c-988f-00be29ea21d1
+[W 14:31:23.227 NotebookApp] Culling 'idle' kernel 'python3' (a1952606-0618-4f7b-9ede-843d7b1dcba7) with 1 connections due to 647 seconds of inactivity.
+[I 14:31:23.228 NotebookApp] Kernel shutdown: a1952606-0618-4f7b-9ede-843d7b1dcba7
+[W 14:31:23.643 NotebookApp] Culling 'idle' kernel 'python3' (39d5668e-b971-4bd5-9478-06889bcad75d) with 1 connections due to 638 seconds of inactivity.
+[I 14:31:23.644 NotebookApp] Kernel shutdown: 39d5668e-b971-4bd5-9478-06889bcad75d
+[W 14:31:24.059 NotebookApp] Culling 'idle' kernel 'python3' (c4ceaecb-0909-4a73-ab60-418f16109eaf) with 1 connections due to 635 seconds of inactivity.
+[I 14:31:24.060 NotebookApp] Kernel shutdown: c4ceaecb-0909-4a73-ab60-418f16109eaf
+[W 14:31:24.679 NotebookApp] Culling 'idle' kernel 'python3' (5ef38df4-7cbf-41c1-a6e3-7914423656d9) with 1 connections due to 629 seconds of inactivity.
+[I 14:31:24.680 NotebookApp] Kernel shutdown: 5ef38df4-7cbf-41c1-a6e3-7914423656d9
+[W 14:31:25.199 NotebookApp] Culling 'idle' kernel 'python3' (20807bf1-e9ec-4635-9cf9-79a717bc747b) with 1 connections due to 632 seconds of inactivity.
+[I 14:31:25.200 NotebookApp] Kernel shutdown: 20807bf1-e9ec-4635-9cf9-79a717bc747b
+[W 14:31:48.219 NotebookApp] WebSocket ping timeout after 119816 ms.
+[I 14:31:49.230 NotebookApp] Starting buffering for 636abf48-8c04-4a87-adca-cc8d3c0ccce0:f6b04752-9ead-4cac-80a7-e5b8ca7da5da
+[I 14:31:49.609 NotebookApp] Restoring connection for 636abf48-8c04-4a87-adca-cc8d3c0ccce0:f6b04752-9ead-4cac-80a7-e5b8ca7da5da
+[W 14:32:09.189 NotebookApp] WebSocket ping timeout after 119903 ms.
+[W 14:32:10.091 NotebookApp] 404 GET /binder/jupyter/user/eldadkeha-class40-jmu6hd9v/api/kernels/bc6e0db7-b8a3-431c-988f-00be29ea21d1/channels?session_id=eb756fbc-43bd-4f94-afa5-c53d5f0987dd (79.178.153.142): Kernel does not exist: bc6e0db7-b8a3-431c-988f-00be29ea21d1
+[W 14:32:10.130 NotebookApp] 404 GET /binder/jupyter/user/eldadkeha-class40-jmu6hd9v/api/kernels/bc6e0db7-b8a3-431c-988f-00be29ea21d1/channels?session_id=eb756fbc-43bd-4f94-afa5-c53d5f0987dd (79.178.153.142) 42.500000ms referer=None
+[W 14:32:12.100 NotebookApp] Replacing stale connection: bc6e0db7-b8a3-431c-988f-00be29ea21d1:eb756fbc-43bd-4f94-afa5-c53d5f0987dd
